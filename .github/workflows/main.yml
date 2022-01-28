@@ -1,0 +1,14 @@
+ name: FTP Test
+ on: [push]
+ jobs:
+   deploytocpanel:
+     runs-on: ubuntu-latest
+     steps:
+       - uses: actions/checkout@v2
+       - name: FTP-Deploy-Action
+         uses: SamKirkland/FTP-Deploy-Action@3.1.1
+         with:
+           ftp-server: ftp.westernpixels.com
+           ftp-username: gitaction
+           ftp-password: 5t*&0DNce_C^
+           local-dir: toupload
