@@ -11,4 +11,4 @@
            ftp-server: ftp.westernpixels.com
            ftp-username: gitaction
            ftp-password: 5t*&0DNce_C^
-           local-dir: /home/westernp/mycpanelpractice/toupload
+           local-dir: toupload
