@@ -12,6 +12,6 @@ jobs:
         uses: airvzxf/ftp-deployment-action@latest
         with:
           server: ftp.westernpixels.com
-          user: gitaction
+          user: gitaction@westernpixels.com
           password: 5t*&0DNce_C^
           delete: "false" 
