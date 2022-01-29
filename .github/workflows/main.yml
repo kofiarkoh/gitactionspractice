@@ -6,7 +6,7 @@
      steps:
        - uses: actions/checkout@v2
        - name: FTP-Deploy-Action
-         uses: SamKirkland/FTP-Deploy-Action@3.1.1
+         uses: SamKirkland/FTP-Deploy-Action@4.2.0
          with:
            ftp-server: ftp.westernpixels.com
            ftp-username: gitaction
