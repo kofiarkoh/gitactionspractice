@@ -8,7 +8,7 @@
        - name: FTP-Deploy-Action
          uses: SamKirkland/FTP-Deploy-Action@4.2.0
          with:
-           ftp-server: ftp.westernpixels.com
-           ftp-username: gitaction
-           ftp-password: 5t*&0DNce_C^
-           local-dir: "./"
+           server: ftp.westernpixels.com
+           username: gitaction
+           password: 5t*&0DNce_C^
+           
